@@ -33,6 +33,6 @@ The system consists of 4 normalized tables mapped together via Primary and Forei
 * Key SQL Concepts: Aggregate evaluations, relational mapping.
 
 -
-1. Execute the scripts inside `schema.sql` to build the database architecture.
-2. Run the scripts in `insert_data.sql` to populate the environment with sample enterprise logs.
-3. Use the queries in `queries.sql` to generate analytical business reports.
+1. Execute the scripts inside `01_Creating Table.sql` to build the database architecture.
+2. Run the scripts in `02_Inserting Values into tables.sql` to populate the environment with sample enterprise logs.
+3. Use the queries in `03_the_vendor_leaderboard_query1.sql`,   `04_the_delayed_shipment_tracker_query2.sql`, `05_low_stock_query_query3.sql` to generate analytical business reports.
